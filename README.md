@@ -77,9 +77,10 @@ from each indiviual class was found.  This resulted in a training set that conta
 Inorder to classify the data, the Euclidean and Manhattan distance formulas
 were utilized. 
 
-Euclidean: $d\left( r,s\right)   = \sqrt {\sum _{i=1}^{n}  \left( r_{i}-s_{i}\right)^2 } $
+Euclidean: ![Euclidean](graphics/euclidean.png)
 
-Manhattan: $d\left( r,s\right)   = {\sum _{i=1}^{n}  \lvert r_{i}-s_{i}\rvert} $
+
+Manhattan: ![Manhattan](graphics/manhattan.png)
 
 The accuracy of this data can be seen below: ![Data](graphics/confuseddata.png)
 
