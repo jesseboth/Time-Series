@@ -15,7 +15,7 @@
  * Outputs: 
  *          Terminal
  *                  - Data accuracy (Euclidean and Manhattan)
- *                  - PAA accuracy  (Euclidean and Manhattan
+ *                  - PAA accuracy  (Euclidean and Manhattan)
  *          Figure 1:
  *                  - Confusion Matrix based on original data
  *          Figure 2:
