@@ -107,6 +107,16 @@ run through the paa generation function.  The spread of the data is below:
 --------------------
 SAX Generation
 --------------------
+
+The process to create the Symbolic Aggregate Approximation was similar to implmenting the PAA except there was an additonal element that needed to be considered, the labels.  Inorder to
+determine the labels, the ranges of the bounds for each label needs to be defined.
+For this implentaion, it was chosen that for every value that could be rounded 
+to the nearest .5 (of the normalized data) would be its own label.  The labels
+that were picked were A-M, A starting at -3 and M ending at +3. 
+
 ![SAX](graphics/saxplot.png)
+
+It can can be seen in the figure below that the PAA and SAX have the same shape, with SAX
+having the addition of the labels.
 
 ![PAASAX](graphics/paavssax.png)
